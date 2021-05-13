@@ -1,5 +1,8 @@
 # SHOW AI Toolbox
 
+![Screenshot](show-logo.png)
+
+
 ## AI Toolbox Description
 
 ### 1. About
@@ -18,3 +21,5 @@ An example of the execution of the tool should be included. In case of a ML algo
 Every tool uploaded to the repository should accompanied with a clear description along with detailed instructions on how to run the tool. The description should state what the tool accomplices and input and anticipated output based on the data provided in 2.2. This should be in the from of “README.md” that git repositories support.
 #### 2.5 Requirements 
 This file should contain all the libraries’ requirements and dependencies of the tool. 
+
+![Screenshot](readme-img.png)
