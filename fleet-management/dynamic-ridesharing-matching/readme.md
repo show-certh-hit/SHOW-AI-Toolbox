@@ -1,6 +1,6 @@
 # **Ridesharing**
 
-Matching algorithm that matches drivers with passengers into shared trips. 
+Matching algorithm that matches drivers with passengers into shared trips. So far, the module solve the many-to-one problem (5/14/2021) 
 
 # **Pre-requisites**
 Python 3.8.8
