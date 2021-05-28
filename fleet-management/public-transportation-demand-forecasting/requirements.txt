@@ -1,0 +1,2 @@
+R >=4.0.0
+Packages: ranger, C50
