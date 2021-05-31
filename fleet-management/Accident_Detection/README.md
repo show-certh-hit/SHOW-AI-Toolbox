@@ -57,4 +57,4 @@ python3 accident.py --mode test --model model_path --gpu gpu_id
 Under development.
 
 ### Contact
-alexpap@iti.gr
+Alexandros Papadopoulos. alexpap@iti.gr
