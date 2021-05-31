@@ -3,7 +3,7 @@ The initial model is described in "Anticipating Accidents in Dashcam Videos".
 
 ### Introduction
 
-The main goal is the recognition o the pre-accident stage in order to provide the system with the ability to react.The under-development model
+The main goal is the recognition of the pre-accident stage in order to provide the system with the ability to react.The under-development model
 could forecast an accident. The purpose is to do this task as many seconds as possible before the accident occurs.
 
 ### Pre-requisites
