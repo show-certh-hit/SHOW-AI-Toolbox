@@ -8,7 +8,7 @@ could forecast an accident. The purpose is to do this task as many seconds as po
 
 ### Pre-requisites
 
-##### Tensorflow 
+##### Tensorflow 1.14
 ##### Opencv
 ##### Matplotlib
 ##### Numpy
