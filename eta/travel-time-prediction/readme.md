@@ -1,1 +1,4 @@
-
+The description of the Travel Time Prediction is related to the “Forecast process”. 
+The Travel Time Prediction service provides estimates of travel time for different transport modes: rail (timing point-to-timing point), bus and tram (stop-to-stop), underground (station-to-station). 
+The evolution of a transport system follows over time a process of states influenced by some structural factors (the state of the system at six in the morning is structurally different from the eight rush hour) and by some internal contingent factors (the temporary blocking of a vehicle door) or external contingent factors (there is or there is not a strong thunderstorm). 
+Travel time is one of the most used performance indicators in the context of public transport systems. Travel time (or commercial speed) is generally proposed as one of the fundamental parameters for evaluating the effectiveness of the transport service. On the other hand, providing users with accurate and reliable travel forecasts can be a valid driver for attracting new demand and therefore for encouraging modal shifting.
