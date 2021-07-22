@@ -1,12 +1,12 @@
-# SHOW AI Toolbox
+# SHOW AI Toolboxes
 
 ![Screenshot](show-logo.png)
 
 
-## AI Toolbox Description
+## AI Toolboxes Description
 
 ### 1. About
-The AI toolbox is an integral part of the WP5 processes. It will contain all the necessary algorithms and methods that will be used to develop and deploy all the services which will be part of the demonstrations in the sites.
+The AI toolboxes are an integral part of the WP5 processes. It will contain all the necessary algorithms and methods that will be used to develop and deploy all the services which will be part of the demonstrations in the sites.
 In order to collect all the algorithms that reflet the expertise of the partners involved a central space will be deployed. Namely, a git repository system. There are numerous git web services available but to protect the privacy and ensure the safety of the files a private git server could be deployed (e.g. GitLab). In the Git repo mentioned each partner will create an account and could be able to upload all the necessary files that comprise the tools. 
 ### 2. Components of a tool 
 Every tool uploaded in the repository should contain all the components described below. This way the repository will have a structured design and each partner can understand and deploy all the tools as needed. Every component must be placed in a folder named appropriately if possible, unless otherwise stated. 
