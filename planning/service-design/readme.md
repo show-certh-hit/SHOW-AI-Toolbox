@@ -1,5 +1,5 @@
-# **Fleet planning**
-That file contain all the modules used to define the system parameters of MOMENTUM mobility services. 
+# **Service deisgn**
+That file contain all the modules used to define the system and service parameters in regards to location of stops and service frequency. 
 
 # **Pre-requisites**
 Python 3.8.8
@@ -11,11 +11,7 @@ Python 3.8.8
 * stop_candidates.py : It takes as an input disaggregated demand of OD trips with timestamp and approximate the best stop candidates. Planner can insert the desired
 maximum distance each user must walk to reach a available station. 
 * vehicles_size.py: This module solve the VRP to define the fleet size for the operation. The user can choose the maximum route distance and the size of fleet. 
-* facility_lication.py : (under developement) choose the optimal subset (set covering) via facility location MIP. 
-
-# **Citing this model**
-In progress... 
-
+* facility_location.py : (under developement) choose the optimal subset (set covering) via facility location MIP. 
 
 # **Contact**
 Zisis Maleas, zisismaleas@certh.gr
