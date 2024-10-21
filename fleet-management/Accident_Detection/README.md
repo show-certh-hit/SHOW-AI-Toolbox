@@ -1,10 +1,9 @@
 # Accident Detection
-The initial model is described in "Anticipating Accidents in Dashcam Videos".
+Autonomous Vehicles (AVs) will be the future of automotive including both the Public and the Private Transportation. One of the major concerns of the corresponding research community is the safety of the AVs. Considering this, a lightweight accident detection model for autonomous fleets is presented, utilizing only GPS data. The proposed accident detection model combines well-known statistical and machine learning techniques such as data normalization, PCA transformation, and DBSCAN clustering. In order to validate the proposed methodology simulated data were utilized exploiting well-established techniques, such as Dead-Reckoning, accident speed profiles, and pre-crash acceleration models. The preliminary results highlighted that the proposed methodology managed to achieve its accurate accident detection purpose presenting accuracy higher than 98\%.
 
 ### Introduction
 
-The main goal is the recognition of the pre-accident stage in order to provide the system with the ability to react.The under-development model
-could forecast an accident. The purpose is to do this task as many seconds as possible before the accident occurs.
+The suggested model is founded upon GPS data which serves to establish the standard operation of AVs. However, in order to validate the model, data pertaining to accident scenarios is required, yet is currently unavailable. Additionally, there is a lack of models and theoretical foundations explicating the velocity and acceleration patterns of AVs to enable the detection of anomalies that could potentially lead to accidents. To address this issue, simulated accidents inheriting the consideration of conventional vehicles' accidents are injected for the methodology validation. The definition of the normal operation is established via the usage of the Density-Based Spatial Clustering of Applications with Noise (DBSCAN) clustering that receives as input  GPS data being processed by Principal Component Analysis (PCA) toward dimensionality reduction. After that, accident scenario tools are employed and by inspecting these abnormal data outside from the normal operation cluster, the detection of such events is performed.
 
 ### Pre-requisites
 
@@ -14,47 +13,28 @@ could forecast an accident. The purpose is to do this task as many seconds as po
 ##### Numpy
 
 ### Flowchart
-![Alt text](./img/flowchart.jpg "Optional title")
+![Alt text](./img/methodology.png "Optional title")
 
 
-### Dataset & Features
+### Dataset 
+The data used are sourced by an operating SHOW project site. Samples of them are available in Zenodo.
 
-In the first phase, 1750 clips, where each clip consists of 100 frames (5 seconds) are used 
-for training and testing. These clips contain 620 positive clips containing the
-moment of accident at the last 10 frames, and 1130 negative clips containing
-no accidents. The split of the dataset into training and testing was done randomly.
-
-Dataset : http://aliensunmin.github.io/project/dashcam/ .
-Download the file and put it in "datatset/videos" folder.
-
-CNN features : https://drive.google.com/file/d/0B8xi2Pbo0n2gRGpzWUEzRTU2WUk/view .
-Download the file and put it in "dataset/features" folder.
-
-Annotation : https://drive.google.com/file/d/0B8xi2Pbo0n2gdTlwT2NXdS1NTFE/view .
-Download the file and put it in the project's folder.
-
-The implementation will be completed and tested 
-on the data that will be given by SHOW’s data providers
 ### Usage
 
-#### Run Demo
+#### Data Generator
 ```
-python3 accident.py --model ./demo_model/demo_model
-```
-
-#### Training
-```
-python3 accident.py --mode train --gpu gpu_id
+python3 data_generator
 ```
 
-#### Testing
+#### Training & Testing
 ```
-python3 accident.py --mode test --model model_path --gpu gpu_id
+python3 full_accident_detection.py
 ```
+
 
 ### Citing
 
-Under development.
+Papadopoulos, A., Sersemis, A., Spanos, G., Lalas, A., Liaskos, C., Votis, K., & Tzovaras, D. (2024). Lightweight accident detection model for autonomous fleets based on GPS data. Transportation research procedia, 78, 16-23.
 
 ### Contact
 Alexandros Papadopoulos. alexpap@iti.gr
