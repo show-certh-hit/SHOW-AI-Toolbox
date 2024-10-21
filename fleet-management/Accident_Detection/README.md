@@ -13,7 +13,7 @@ The suggested model is founded upon GPS data which serves to establish the stand
 ##### Numpy
 
 ### Flowchart
-![Alt text](./img/methodology.png "Optional title")
+![Alt text](./methodology.png "Optional title")
 
 
 ### Dataset 
